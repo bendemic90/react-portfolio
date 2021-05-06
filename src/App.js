@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav'
+import Jumbo from './components/Jumbo'
+import Project from './components/Project'
 
 function App() {
   return (
     <div className="App">
-      <h1> testies </h1>
+      <Nav />
+      <Jumbo />
     </div>
   );
 }
