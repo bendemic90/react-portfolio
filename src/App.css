@@ -42,16 +42,30 @@
   font-weight: bold;
 }
 
-.jumboContainer {
-  height: 500px
-}
-
 html {
   height:100%;
 }
 
 body {
   margin:0;
+}
+
+#footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:75px;
+  width:100%;
+  background:#999;
+}
+
+#header {
+  position:fixed;
+  left:0px;
+  top:0px;
+  height:75px;
+  width:100%;
+  background:#999;
 }
 
 .bg {
