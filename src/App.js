@@ -8,9 +8,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <div className="jumboContainer">
       <Jumbo />
-      </div>
       <Footer />
     </div>
   );

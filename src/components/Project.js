@@ -7,7 +7,6 @@ function Project() {
             <h1>project</h1>
         </div>
     )
-
 }
 
 export default Project;
