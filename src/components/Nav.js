@@ -1,15 +1,20 @@
+import { Link } from 'react-router-dom'
+
 export default function Nav() {
     const projects = '{ }'
     const aboutMe = '//'
+    const home = '< >'
 
     return (
         <header id="header" className="navbar justify-content-center header">
             <span className="navbar-text">
                 <p className="lead">
+                    <span className="symbols">{home}</span>
+                    <span> </span><Link to="/"><span className="header-text"><i>h o m e</i></span></Link><span> </span>
                     <span className="symbols">{aboutMe}</span>
-                    <span> </span><a href="#"><span className="header-text">about.me</span></a><span> </span>
+                    <span> </span><Link to="/about"><span className="header-text">about.me</span></Link><span> </span>
                     <span className="symbols">{projects}</span>
-                    <span> </span><a href="#"><span className="header-text"> projects( ) </span></a><span> </span>
+                    <span> </span><Link to="/projects"><span className="header-text"> projects( ) </span></Link><span> </span>
                 </p>
             </span>
         </header>
