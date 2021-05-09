@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Nav() {
     const projects = '{ }'
     const aboutMe = '//'
-    const home = '< >'
+    const home = '<>'
 
     return (
         <header id="header" className="navbar justify-content-center header">

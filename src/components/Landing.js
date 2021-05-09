@@ -4,7 +4,6 @@ import { AiFillLinkedin, AiFillFolderOpen } from "react-icons/ai";
 export default function Landing() {
     return (
         <>
-         <h1>Ben Trevethan</h1>
         <p className="lead">
           <a
             target="_blank"
@@ -20,7 +19,7 @@ export default function Landing() {
           >
             <AiFillLinkedin size={50} />
           </a>
-          <a target="_blank" rel="noreferrer noopener" href="">
+          <a rel="noreferrer noopener" href="#/projects">
             <AiFillFolderOpen size={50} />
           </a>
         </p>
