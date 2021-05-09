@@ -100,6 +100,8 @@ body {
   text-align:center;
   top:50%;
   transform:translate(-50%, -50%);
+  max-height: 75%;
+  overflow-y: auto;
 }
 
 h1 {
@@ -122,4 +124,8 @@ font-size:larger
 
 .header-text {
   color:blanchedalmond
+}
+
+.dcode {
+  border: 2px solid #000000;
 }

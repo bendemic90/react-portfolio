@@ -1,5 +1,5 @@
 import { GoMarkGithub } from "react-icons/go";
-import { AiFillLinkedin, AiFillFolderOpen } from "react-icons/ai";
+import { AiFillLinkedin, AiFillFolderOpen, AiFillPhone, AiOutlineMail } from "react-icons/ai";
 
 export default function Landing() {
     return (
@@ -22,6 +22,10 @@ export default function Landing() {
           <a rel="noreferrer noopener" href="#/projects">
             <AiFillFolderOpen size={50} />
           </a>
+        </p>
+        <p className="lead">
+        <AiFillPhone size={50}/><span className="">+61 437 607 555</span><br />
+        <AiOutlineMail size={50} /><> </><span>ben.trevethan@gmail.com</span>
         </p>
         </>
     )
