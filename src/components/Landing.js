@@ -22,10 +22,10 @@ export default function Landing() {
           <a rel="noreferrer noopener" href="#/projects">
             <AiFillFolderOpen size={50} />
           </a>
-        </p>
+        </p><hr />
         <p className="lead">
         <AiFillPhone size={50}/><span className="">+61 437 607 555</span><br />
-        <AiOutlineMail size={50} /><> </><span>ben.trevethan@gmail.com</span>
+        <AiOutlineMail size={50} /><> </><a href="mailto:ben.trevethan@gmail.com"><span>ben.trevethan@gmail.com</span></a>
         </p>
         </>
     )
