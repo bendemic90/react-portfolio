@@ -12,7 +12,7 @@ function Project() {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <img className="dcode" src={dcode} width="200px" alt="dcode" />
+        <img className="dcode" src={dcode} width="250px" alt="dcode" />
       </a>
       <br />
       <a
@@ -20,14 +20,14 @@ function Project() {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <img className="dcode" src={cms} width="200px" alt="cms" />
+        <img className="dcode" src={cms} width="250px" alt="cms" />
       </a><br/>
       <a
         href="https://bendemic90.github.io/react-employee-directory/"
         rel="noopener noreferrer"
         target="_blank"
       >
-        <img className="dcode" src={emp} width="200px" alt="cms" />
+        <img className="dcode" src={emp} width="250px" alt="cms" />
       </a>
     </>
   );
