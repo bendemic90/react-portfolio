@@ -2,6 +2,7 @@ import React from "react";
 import dcode from "../assets/img/dcode.png";
 import cms from "../assets/img/cms.png";
 import emp from "../assets/img/employee.png"
+import trailer from "../assets/img/trailer.png"
 
 function Project() {
   const projectsStr = '{...}'
@@ -16,6 +17,16 @@ function Project() {
         <img className="dcode" src={dcode} width="250px" alt="dcode" />
       </a>
       <p>DCODE is a modern tool for developers, specifically full-stack developers. The content within DCODE includes many helpful function documentations. Our goal in this project was to provide an 'encyclopedia' of code that will help beginners and advanced developers alike!</p>
+      <a
+        href="https://github.com/BenjaminLee-boop/Trailer-Sailor"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img className="dcode" src={trailer} width="250px" alt="dcode" />
+      </a>
+      <p>
+        The initial idea of Trailer-Sailor was to make the acquisition of a trailer easier, as it is not uncommon for streaming services to not include it in their libraries. Uses Google/Youtube API and OMDB API concurrently.
+      </p>
       <a
         href="https://github.com/bendemic90/content-management-system/"
         rel="noopener noreferrer"
