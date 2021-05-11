@@ -1,5 +1,7 @@
 import { GoMarkGithub } from "react-icons/go";
 import { AiFillLinkedin, AiFillFolderOpen, AiFillPhone, AiOutlineMail } from "react-icons/ai";
+import { GrDocumentDownload } from "react-icons/gr"
+import pdf from "../assets/pdf/ben-trev-2021.pdf"
 
 export default function Landing() {
     return (
@@ -21,6 +23,13 @@ export default function Landing() {
           </a>
           <a rel="noreferrer noopener" href="#/projects">
             <AiFillFolderOpen size={50} />
+          </a>
+          <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href={pdf}
+          >
+          <GrDocumentDownload size={50}/>
           </a>
         </p><hr />
         <p className="lead">
