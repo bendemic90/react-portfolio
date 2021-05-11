@@ -6,6 +6,7 @@ import pdf from "../assets/pdf/ben-trev-2021.pdf"
 export default function Landing() {
     return (
         <>
+        <h1>.home</h1><hr/>
         <p className="lead">
           <a
             target="_blank"

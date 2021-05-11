@@ -5,7 +5,7 @@ import emp from "../assets/img/employee.png"
 import trailer from "../assets/img/trailer.png"
 
 function Project() {
-  const projectsStr = '{...}'
+  const projectsStr = '[{}]'
   return (
     <>
       <h1>projects{projectsStr}</h1><hr/>
