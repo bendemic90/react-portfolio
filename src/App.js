@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import { HashRouter, Route } from 'react-router-dom';
 import Content from './components/Content';
 import About from './components/About'
+import FortyTwo from './components/FortyTwo';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route exact path="/" component={Content} />
       <Route exact path="/about" component={About} />
       <Route exact path="/projects" component={Project} />
+      <Route exact path="/fortytwo" component={FortyTwo} />
       </Jumbo>
       <Footer />
     </div>

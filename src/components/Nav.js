@@ -4,6 +4,7 @@ export default function Nav() {
     const projects = '{ }'
     const aboutMe = '//'
     const home = '<>'
+    const fortyTwo = '42';
 
     return (
         <header id="header" className="navbar justify-content-center header">
@@ -15,6 +16,8 @@ export default function Nav() {
                     <span> </span><Link to="/about"><span className="header-text">about.me</span></Link><span> </span>
                     <span className="symbols">{projects}</span>
                     <span> </span><Link to="/projects"><span className="header-text"> projects( ) </span></Link><span> </span>
+                    <span className="symbols">{fortyTwo}</span>
+                    <span> </span><Link to="/fortytwo"><span className="header-text"> blog </span></Link><span> </span>
                 </p>
             </span>
         </header>
