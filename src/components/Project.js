@@ -1,6 +1,6 @@
 import React from "react";
 import dcode from "../assets/img/dcode.png";
-import cms from "../assets/img/cms.png";
+import socials from "../assets/img/socials.png";
 import emp from "../assets/img/employee.png"
 import trailer from "../assets/img/trailer.png"
 
@@ -9,6 +9,18 @@ function Project() {
   return (
     <>
       <h1>projects{projectsStr}</h1><hr/>
+      <a
+        href="https://github.com/bendemic90/content-management-system/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img className="dcode" src={socials} width="250px" alt="cms" />
+      </a>
+      <p>
+        Memory sharing app, with Google OAuth and user login with JWTs. <br/>
+        Front end: <i>@material-UI, React.js, redux, axios.</i> <br/>
+        Back end: <i>mongoose, express(), JWT, bcrypt, Node.</i>
+      </p>
       <a
         href="https://github.com/bendemic90/group-project-2"
         rel="noopener noreferrer"
@@ -26,16 +38,6 @@ function Project() {
       </a>
       <p>
         The initial idea of Trailer-Sailor was to make the acquisition of a trailer easier, as it is not uncommon for streaming services to not include it in their libraries. Uses Google/Youtube API and OMDB API concurrently.
-      </p>
-      <a
-        href="https://github.com/bendemic90/content-management-system/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <img className="dcode" src={cms} width="250px" alt="cms" />
-      </a>
-      <p>
-        An employee management system handled in CLI with `inquirer` to traverse the MYSQL database (handled with Sequelize ORM).
       </p>
       <a
         href="https://bendemic90.github.io/react-employee-directory/"

@@ -18,7 +18,7 @@ function FortyTwo() {
             <h5>Fatigue</h5>
             <p>I have more to write, but I really am tired; 60ish hours in a week is a lot of code. Sometimes it feels like my brain just won't work any more and I have to walk out for a decent half-hour break.<br/>
             The next post will have a bit more depth and detail.</p>
-            <p>Shoutout to <code>man ascii</code></p>
+            <p>Shoutout to <code>man ascii</code>.</p>
         </div>
         </>
     )
